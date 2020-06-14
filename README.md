@@ -175,7 +175,7 @@ We offer the following installation methods:
 
     ```sh
     gcloud container clusters create demo --enable-autoupgrade \
-        --enable-autoscaling --min-nodes=3 --max-nodes=10 --num-nodes=5 --zone=us-central1-a
+        --enable-autoscaling --min-nodes=2 --max-nodes=5 --num-nodes=3 --zone=us-central1-a --cluster-version=1.15.11-gke.15
     ```
 
     ```
